@@ -9,7 +9,7 @@ Icons:
 - Font Awesome
 
 Google Fonts:
-[- Archivo Black](https://fonts.google.com/specimen/Archivo+Black?preview.text=ABOUT&preview.text_type=custom&selection.family=Archivo+Black)
+-[Archivo Black](https://fonts.google.com/specimen/Archivo+Black?preview.text=ABOUT&preview.text_type=custom&selection.family=Archivo+Black)
 
 
 Tools used:
