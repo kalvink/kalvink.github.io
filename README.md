@@ -8,7 +8,7 @@ Please give credits to me if you decide to use.
 Icons:
 - Font Awesome
 
-Google Fonts:
+Google Fonts:<br>
 -[Archivo Black](https://fonts.google.com/specimen/Archivo+Black?preview.text=ABOUT&preview.text_type=custom&selection.family=Archivo+Black)
 
 
