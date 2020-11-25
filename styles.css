@@ -217,9 +217,24 @@ h2 {
     padding: 10px;
 }
 
+h3 {
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
 #linkedin {
     width: 50px;
     height: auto;
+}
+
+#icon-link {
+    margin: 10;
+    color: #FFFFFF;
+}
+
+#icon-link:hover {
+    color: rgb(161, 161, 161);
 }
 
 footer {
