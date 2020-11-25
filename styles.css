@@ -82,20 +82,25 @@
 
 /* Main */
 
+body {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
 #main {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    background-color: #F7F7F7;
+    color: #FFF;
+    background-color: #ffffff;
+    font-size: 20px;
 }
 
 #main2 {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 100px;
+    padding-bottom: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -111,39 +116,70 @@
     width: auto;
 }
 
-body {
-    text-align: center;
+#intro {
+    padding-top: 50px;
+    font-size: 60px;
+    margin-bottom: 0;
 }
 
 h1 {
     color: #F7F7F7;
-    text-shadow: 3px 3px #525151;
-    padding-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
     font-size: 130px;
 }
 
 #slogan {
-    font-size: 30px;
+    margin-top: 0;
+    font-size: 60px;
+}
+
+#focus {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+#about-start {
+    padding-top: 10px;
+}
+
+#resume-start {
+    padding-top: 10px;
+}
+
+#portfolio-start {
+    padding-top: 10px;
+}
+
+#contact-start {
+    padding-top: 10px;
 }
 
 #about {
     padding-top: 50px;
     margin-top: 2%;
+    padding-bottom: 5%;
     display: block;
-    height: 50vh;
     background-color: rgb(95, 97, 197);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
 
+#art-about {
+    text-align: center;
+}
+
+#abt {}
+
 #portfolio {
     padding-top: 50px;
     margin-top: 2%;
+    padding-bottom: 5%;
     display: block;
-    height: 50vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(74, 82, 119);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -152,8 +188,8 @@ h1 {
 #resume {
     padding-top: 50px;
     margin-top: 2%;
+    padding-bottom: 5%;
     display: block;
-    height: 50vh;
     background-color: rgb(49, 49, 65);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
@@ -163,9 +199,9 @@ h1 {
 #contact {
     padding-top: 50px;
     margin-top: 2%;
+    padding-bottom: 5%;
     display: block;
-    height: 50vh;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(49, 49, 65);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -173,11 +209,12 @@ h1 {
 
 h2 {
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
     font-size: 60px;
-    border-width: 0 0 5px;
+    border-width: 10px 10px 10px;
     border-style: solid;
-    padding-bottom: 8px;
+    padding: 10px;
 }
 
 #linkedin {
