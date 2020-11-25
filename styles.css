@@ -123,6 +123,9 @@ body {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #F7F7F7;
     margin-top: 0;
     margin-bottom: 0;
@@ -131,14 +134,26 @@ h1 {
     font-size: 130px;
 }
 
+h1:after,
+h1:before {
+    content: '';
+    width: 200px;
+    height: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
 #slogan {
     margin-top: 0;
     font-size: 60px;
 }
 
 #focus {
-    margin-top: 0;
-    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -25;
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 #about-start {
@@ -162,7 +177,7 @@ h1 {
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(95, 97, 197);
+    background-color: rgb(44, 128, 255);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -174,23 +189,23 @@ h1 {
 
 #abt {}
 
-#portfolio {
-    padding-top: 50px;
-    margin-top: 2%;
-    padding-bottom: 5%;
-    display: block;
-    background-color: rgb(74, 82, 119);
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px #777;
-}
-
 #resume {
     padding-top: 50px;
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(49, 49, 65);
+    background-color: rgb(27, 78, 155);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#portfolio {
+    padding-top: 50px;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    display: block;
+    background-color: rgb(16, 47, 94);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -201,7 +216,7 @@ h1 {
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(49, 49, 65);
+    background-color: rgb(6, 19, 39);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -243,6 +258,32 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #727272;
+    background-color: rgb(2, 6, 12);
     text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#footer-link:hover {
+    color: #c0c0d1;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#dl {
+    margin-top: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fas fa-code-branch {
+    padding-left: 10px;
+    padding-right: 10px;
 }
