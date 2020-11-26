@@ -73,10 +73,13 @@
     padding: 5px;
     font-size: 30px;
     text-decoration: none;
+    color: rgb(31, 102, 255);
 }
 
 .nav-link:hover {
-    background-color: #dddddd;
+    text-decoration: underline;
+    background-color: #a8a7a7;
+    color: rgb(6, 21, 53);
 }
 
 
@@ -160,6 +163,15 @@ h1:before {
     padding-top: 10px;
 }
 
+#looking-link {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#looking-link:hover {
+    color: rgb(255, 230, 0);
+}
+
 #resume-start {
     padding-top: 10px;
 }
@@ -233,9 +245,21 @@ h2 {
 }
 
 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     font-size: 40px;
+}
+
+h3:after,
+h3:before {
+    content: '';
+    width: 400px;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    margin: 0 10px;
 }
 
 #linkedin {
@@ -262,6 +286,8 @@ footer {
     text-align: center;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #footer-link {
@@ -277,10 +303,21 @@ footer {
 }
 
 #dl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 0;
-    font-size: 30px;
-    text-transform: uppercase;
+    font-size: 50px;
     font-weight: bold;
+}
+
+#dl:after,
+#dl:before {
+    content: '';
+    width: 400px;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    margin: 0 10px;
 }
 
 .fas fa-code-branch {
