@@ -170,7 +170,7 @@ h1:before {
 }
 
 #looking-link:hover {
-    color: rgb(255, 230, 0);
+    color: rgb(31, 31, 32);
 }
 
 #resume-start {
@@ -190,7 +190,7 @@ h1:before {
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(44, 128, 255);
+    background-color: rgb(54, 119, 216);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -202,12 +202,70 @@ h1:before {
 
 #abt {}
 
+#services {
+    padding-top: 50px;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    display: block;
+    background-color: rgb(34, 99, 197);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    justify-content: center;
+}
+
+#threecols {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+#serv-col-left {
+    float: left;
+    width: 30%;
+    background-color: rgb(30, 45, 78);
+    border-radius: 10px;
+}
+
+#serv-col-center {
+    display: inline-block;
+    width: 30%;
+    background-color: rgb(30, 45, 78);
+    border-radius: 10px;
+}
+
+#serv-col-right {
+    float: right;
+    width: 30%;
+    background-color: rgb(30, 45, 78);
+    border-radius: 10px;
+}
+
+#service-p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#serv-icon {
+    font-size: 20px;
+}
+
+#services h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.fas fa-paint-brush {
+    padding: 20px;
+}
+
 #resume {
     padding-top: 50px;
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(27, 78, 155);
+    background-color: rgb(15, 74, 161);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
