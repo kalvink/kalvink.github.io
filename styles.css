@@ -37,6 +37,7 @@
     padding: 0;
     margin-top: 20;
     line-height: 0%;
+    color: #000000;
 }
 
 #title-li {
@@ -119,6 +120,29 @@ body {
     width: auto;
 }
 
+#main button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+
+#main button:hover {
+    color: #000000;
+    background-color: #ffffffcb;
+    border: 0.1em solid #000000;
+}
+
 #intro {
     padding-top: 50px;
     font-size: 60px;
@@ -157,7 +181,7 @@ h1:before {
     margin-top: -25;
     font-size: 18px;
     font-family: 'Archivo Black', sans-serif;
-    margin-bottom: 250px;
+    margin-bottom: 5vh;
 }
 
 #about-start {
@@ -166,11 +190,11 @@ h1:before {
 
 #looking-link {
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #5d83ff;
 }
 
 #looking-link:hover {
-    color: rgb(31, 31, 32);
+    color: #0051ff;
 }
 
 #resume-start {
@@ -186,11 +210,14 @@ h1:before {
 }
 
 #about {
-    padding-top: 50px;
+    padding-top: 0px;
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(54, 119, 216);
+    background-color: rgb(31, 32, 32);
+    background-image: url(imgs/toronto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -198,9 +225,101 @@ h1:before {
 
 #art-about {
     text-align: center;
+    padding: 5%;
+    padding-bottom: 10%;
 }
 
-#abt {}
+#twocols {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    height: auto;
+}
+
+#a1 {
+    width: 45%;
+    height: auto;
+    margin: auto;
+    float: none;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+#a2 {
+    font-size: 15px;
+    height: auto;
+    width: 40%;
+    margin-left: 15%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+#a3 {
+    font-size: 15px;
+    height: auto;
+    width: 40%;
+    margin-right: 15%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+#a4 {
+    font-size: 15px;
+    height: auto;
+    width: 40%;
+    margin-left: 15%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+#a5 {
+    font-size: 15px;
+    height: auto;
+    width: 40%;
+    margin-right: 15%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 0 10px 6px -6px rgb(255, 255, 255);
+    box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+}
+
+#a6 {
+    font-size: 25px;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    float: none;
+    padding-top: 15px;
+}
+
+#a6a6 {
+    padding: 25px;
+    margin-top: 8%;
+    background-color: rgb(10, 10, 10);
+}
 
 #services {
     padding-top: 50px;
@@ -223,13 +342,13 @@ h1:before {
 #serv-col-left {
     float: left;
     width: 30%;
-    background-color: rgb(30, 45, 78);
+    background-color: rgb(36, 38, 41);
     border-radius: 10px;
 }
 
 #serv-col-left:hover {
-    color: rgb(30, 45, 78);
-    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
     -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
@@ -238,13 +357,13 @@ h1:before {
 #serv-col-center {
     display: inline-block;
     width: 30%;
-    background-color: rgb(30, 45, 78);
+    background-color: rgb(36, 38, 41);
     border-radius: 10px;
 }
 
 #serv-col-center:hover {
-    color: rgb(30, 45, 78);
-    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
     -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
@@ -253,13 +372,13 @@ h1:before {
 #serv-col-right {
     float: right;
     width: 30%;
-    background-color: rgb(30, 45, 78);
+    background-color: rgb(36, 38, 41);
     border-radius: 10px;
 }
 
 #serv-col-right:hover {
-    color: rgb(30, 45, 78);
-    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
     -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
@@ -284,12 +403,16 @@ h1:before {
     padding: 20px;
 }
 
+#skills {
+    background-color: #000000;
+}
+
 #resume {
     padding-top: 50px;
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(15, 74, 161);
+    background-color: rgb(20, 20, 20);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -300,7 +423,7 @@ h1:before {
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(16, 47, 94);
+    background-color: rgb(15, 15, 15);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -311,7 +434,7 @@ h1:before {
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(6, 19, 39);
+    background-color: rgb(32, 32, 32);
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -356,7 +479,7 @@ h3:before {
 }
 
 #icon-link:hover {
-    color: rgb(161, 161, 161);
+    color: #003ffc;
 }
 
 footer {
@@ -364,8 +487,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
-    background-color: rgb(2, 6, 12);
+    padding: 3rem;
+    background-color: rgb(14, 14, 14);
     text-align: center;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -380,7 +503,7 @@ footer {
 }
 
 #footer-link:hover {
-    color: #c0c0d1;
+    color: #003ffc;
     text-decoration: none;
     font-size: 20px;
 }
