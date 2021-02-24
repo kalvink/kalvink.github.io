@@ -340,8 +340,87 @@ h1:before {
 }
 
 #skills {
+    margin-top: 50px;
+    padding-top: 50px;
     background-color: #000000;
 }
+
+#skills-inner {
+    max-width: 40%;
+    margin: auto;
+    background-color: #000000;
+    padding-bottom: 50px;
+}
+
+
+/* Make sure that padding behaves as expected */
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Container for skill bars */
+
+.container {
+    margin: auto;
+    width: 80%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+    border-radius: 1em;
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+    border-radius: 1em;
+    padding-right: 10px;
+}
+
+
+/* Green */
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+    border-radius: 1em;
+    padding-right: 10px;
+}
+
+
+/* Blue */
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+    border-radius: 1em;
+    padding-right: 10px;
+}
+
+
+/* Red */
+
+.php {
+    width: 60%;
+    background-color: #808080;
+    border-radius: 1em;
+    padding-right: 10px;
+}
+
+
+/* Dark Grey */
 
 #resume {
     padding-top: 50px;
