@@ -343,6 +343,9 @@ h1:before {
     margin-top: 50px;
     padding-top: 50px;
     background-color: #000000;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 #skills-inner {
@@ -411,16 +414,6 @@ h1:before {
 
 
 /* Red */
-
-.php {
-    width: 60%;
-    background-color: #808080;
-    border-radius: 1em;
-    padding-right: 10px;
-}
-
-
-/* Dark Grey */
 
 #resume {
     padding-top: 50px;
