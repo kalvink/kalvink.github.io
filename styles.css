@@ -387,9 +387,10 @@ h1:before {
 
 .html {
     width: 90%;
-    background-color: #4CAF50;
+    background-color: #dd4b25;
     border-radius: 1em;
     padding-right: 10px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 
@@ -397,9 +398,10 @@ h1:before {
 
 .css {
     width: 80%;
-    background-color: #2196F3;
+    background-color: #254bdd;
     border-radius: 1em;
     padding-right: 10px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 
@@ -407,9 +409,43 @@ h1:before {
 
 .js {
     width: 65%;
-    background-color: #f44336;
+    background-color: #dfdb00;
     border-radius: 1em;
     padding-right: 10px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+
+/* Red */
+
+.java {
+    width: 80%;
+    background-color: #dc0000;
+    border-radius: 1em;
+    padding-right: 10px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+
+/* Green */
+
+.pyth {
+    width: 70%;
+    background-color: #275378;
+    border-radius: 1em;
+    padding-right: 10px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+
+/* Blue */
+
+.csharp {
+    width: 50%;
+    background-color: #5924e2;
+    border-radius: 1em;
+    padding-right: 10px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 
