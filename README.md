@@ -1,7 +1,7 @@
 # kalvink.github.io
 My website portfolio made in HTML and CSS.
 
-Please give credits to me if you decide to use.
+Attribution required for usage.
 <br>
 
 
