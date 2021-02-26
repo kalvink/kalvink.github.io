@@ -263,7 +263,7 @@ h1:before {
     padding-bottom: 5%;
     display: block;
     background-color: rgb(17, 17, 17);
-    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(3, 2, 2);
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
     justify-content: center;
