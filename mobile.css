@@ -7,12 +7,37 @@
 
 @media only screen and (max-width: 1200px) {
     /*Tablets [601px -> 1200px]*/
-    #art-about {}
+    #art-about {
+        height: 120%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /*Big smartphones [426px -> 600px]*/
+    #art-about {
+        height: 130%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    /*Big smartphones [426px -> 600px]*/
+    #art-about {
+        height: 150%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     /*Big smartphones [426px -> 600px]*/
-    #art-about {}
+    #art-about {
+        height: 170%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    /*Big smartphones [426px -> 600px]*/
+    #art-about {
+        height: 200%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
