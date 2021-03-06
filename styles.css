@@ -94,9 +94,9 @@ body {
 }
 
 #main {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
-    background-color: #ffffff;
+    background: linear-gradient(to top right, #ffffff 0%, #ededed 100%);
     font-size: 20px;
 }
 
@@ -141,11 +141,11 @@ body {
 }
 
 #main button:hover {
-    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
     transition-delay: 0ms;
     color: #000000;
     background-color: rgb(255, 255, 255);
-    border: 0.1em solid #000000;
+    border: 0.1em solid #ffffff;
     border-radius: 1em;
 }
 
@@ -225,6 +225,7 @@ h1:before {
 }
 
 #art-about {
+    padding-top: 2%;
     display: block;
     background-color: rgb(31, 32, 32);
     background-image: url(imgs/toronto.jpg);
@@ -264,14 +265,27 @@ h1:before {
     margin-top: 2%;
     padding-bottom: 5%;
     display: block;
-    background-color: rgb(17, 17, 17);
+    background: linear-gradient( 180deg, #5287DF 0%, #78B3F3 100%);
+    background-image: linear-gradient(rgb(82, 135, 223) 0%, rgb(120, 179, 243) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
     -webkit-box-shadow: 0 10px 6px -6px rgb(3, 2, 2);
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
     justify-content: center;
 }
 
+#services h2 {}
+
 #threecols {
+    color: black;
     width: 80%;
     margin: auto;
     height: auto;
@@ -280,46 +294,41 @@ h1:before {
 #serv-col-left {
     float: left;
     width: 30%;
-    background-color: rgb(36, 38, 41);
-    border-radius: 10px;
+    background-color: white;
+    -moz-box-shadow: 0 0 3px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 3px rgb(0, 0, 0);
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    border-radius: 4px;
 }
 
-#serv-col-left:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(212, 212, 212);
-    -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
-    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
+#serv-col-left:hover {}
 
 #serv-col-center {
     display: inline-block;
     width: 30%;
-    background-color: rgb(36, 38, 41);
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    -moz-box-shadow: 0 0 3px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 3px rgb(0, 0, 0);
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    border-radius: 4px;
 }
 
 #serv-col-center:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(212, 212, 212);
-    -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
-    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    /* background-color: rgb(219, 219, 219); */
 }
 
 #serv-col-right {
     float: right;
     width: 30%;
-    background-color: rgb(36, 38, 41);
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    -moz-box-shadow: 0 0 3px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 3px rgb(0, 0, 0);
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    border-radius: 4px;
 }
 
 #serv-col-right:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(212, 212, 212);
-    -moz-box-shadow: 0 0 10px rgb(0, 0, 0);
-    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    /* background-color: rgb(219, 219, 219); */
 }
 
 #service-p {
@@ -530,7 +539,7 @@ h3:before {
 }
 
 #icon-link:hover {
-    color: #003ffc;
+    color: #4f7afa;
 }
 
 footer {
@@ -542,9 +551,6 @@ footer {
     background-color: rgb(14, 14, 14);
     text-align: center;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 #footer-link {
@@ -554,7 +560,7 @@ footer {
 }
 
 #footer-link:hover {
-    color: #003ffc;
+    color: #658bff;
     text-decoration: none;
     font-size: 20px;
 }
