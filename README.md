@@ -10,7 +10,7 @@ Icons:
 
 Google Fonts:<br>
 - [Archivo Black](https://fonts.google.com/specimen/Archivo+Black?preview.text=ABOUT&preview.text_type=custom&selection.family=Archivo+Black)
-- Roboto
+- Roboto Light 300
 
 Tools used:
 - Visual Code
