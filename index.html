@@ -1,12 +1,16 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="nav.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link href="css/all.css" rel="stylesheet">
     <!--load all styles -->
     <link rel="icon" type="image/png" href="imgs/logo.png" />
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
@@ -30,7 +34,7 @@
                 </li>
             </ul>
         </a>
-        <ul id="nav-ul">
+        <!-- <ul id="nav-ul">
             <li id="nav-li">
                 <a href="#contact-start" class="nav-link">contact</a>
             </li>
@@ -49,7 +53,29 @@
             <li id="nav-li">
                 <a href="#about-start" class="nav-link">about</a>
             </li>
-        </ul>
+        </ul> -->
+
+
+        <div class="topnav" id="myTopnav">
+
+
+            <div id="nav-mobile">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="#about-start" onclick='myFunction();'>about</a>
+                <a href="#services-start" onclick='myFunction();'>services</a>
+                <a href="#resume-start" onclick='myFunction();'>resume</a>
+                <a href="#skills-start" onclick='myFunction();'>skills</a>
+                <a href="#portfolio-start" onclick='myFunction();'>portfolio</a>
+                <a href="#contact-start" onclick='myFunction();'>contact</a>
+            </div>
+
+
+        </div>
+
+
+
     </nav>
 </header>
 
