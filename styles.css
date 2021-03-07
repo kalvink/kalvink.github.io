@@ -586,9 +586,12 @@ footer {
     margin: 0 10px;
 }
 
-.fas fa-code-branch {
-    padding-left: 10px;
-    padding-right: 10px;
+#contact-deets {
+    font-size: 0.7em;
+}
+
+#cd {
+    margin: 20px;
 }
 
 html {
