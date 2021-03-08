@@ -27,6 +27,15 @@
             }
         }
         
+        @media only screen and (max-width: 650px) {
+            #nav-mobile {
+                margin-top: -80px;
+                padding-left: auto;
+                padding-right: auto;
+                margin-bottom: -15px;
+            }
+        }
+        
         @media only screen and (max-width: 600px) {
             /*Big smartphones [426px -> 600px]*/
             #art-about {
