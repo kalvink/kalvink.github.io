@@ -370,7 +370,7 @@ h1:before {
 /* Make sure that padding behaves as expected */
 
 * {
-    box-sizing: border-box
+    box-sizing: content-box;
 }
 
 
