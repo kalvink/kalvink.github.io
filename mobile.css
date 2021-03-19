@@ -94,6 +94,12 @@
             }
         }
         
+        @media only screen and (max-width: 1400px) {
+            .button {
+                font-size: 15px !important;
+            }
+        }
+        
         @media only screen and (max-width: 1350px) {
             .column-33 {
                 margin: 0px;
@@ -199,6 +205,15 @@
                 width: 500px;
                 height: 300px;
             }
+            .proj2-left {
+                margin: 0px;
+                padding: 20px;
+                width: 50%;
+            }
+            .proj2-right img {
+                width: 130px;
+                height: 300px;
+            }
         }
         
         @media only screen and (max-width: 1150px) {
@@ -273,9 +288,54 @@
             #skills-inner {
                 max-width: 100%;
             }
+            .column-33 {
+                width: 100%;
+                padding: 0px;
+            }
+            .column-66 img {
+                width: 100%;
+                height: auto;
+            }
+            .column-66 {
+                padding-left: auto;
+                padding-right: auto;
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 0px;
+            }
+            .proj2-left {
+                width: 100%;
+            }
+            .proj2-right {
+                padding: 0px;
+                width: 100%;
+                margin: 0px;
+                margin-bottom: 15px;
+            }
+            .proj2-right img {
+                width: 32%;
+                height: auto;
+            }
+            .proj3-left {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .proj3-left img {
+                width: 32%;
+                height: auto;
+            }
+            .proj3-right {
+                width: 100%;
+                padding-left: 0;
+                padding-right: 0;
+                margin: 0;
+            }
         }
         
         @media only screen and (max-width: 900px) {
+            .column-66 img {}
             #art-about {
                 height: 130%;
             }
