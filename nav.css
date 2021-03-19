@@ -77,6 +77,9 @@
     #nav-mobile {
         margin-top: -80px;
     }
+    .topnav {
+        width: 60%;
+    }
 }
 
 

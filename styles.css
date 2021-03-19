@@ -286,7 +286,6 @@ hr.solid {
     width: 50%;
     padding-bottom: 20px;
     margin-top: 20px;
-    padding: 20px;
 }
 
 .pcontainer h4 {
@@ -474,7 +473,7 @@ hr.solid {
 }
 
 #skills {
-    margin-top: 50px;
+    margin-top: 3%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #000000;
