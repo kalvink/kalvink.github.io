@@ -296,7 +296,8 @@ hr.solid {
 .proj2-right {
     float: right;
     width: 45%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .proj3-left {
