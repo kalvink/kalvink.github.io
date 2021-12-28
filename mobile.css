@@ -549,7 +549,7 @@
             }
         }
         
-        @media only screen and (min-width: 320px) {
+        @media only screen and (max-width: 320px) {
             #art-about {
                 height: 170%;
             }
