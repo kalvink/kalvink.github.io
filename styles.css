@@ -500,8 +500,8 @@ hr.solid {
 /* Container for skill bars */
 
 .container {
-    margin: auto;
-    width: 93%;
+    margin: 0 0 0 0;
+    width: 99%;
     /* Full width */
     background-color: #fff0;
     /* Grey background */
@@ -519,15 +519,15 @@ hr.solid {
     /* White text color */
 }
 
-/*BAR 1*/
-.progress1 {
+/*Frontend BAR 1*/
+.frontend-progress1 {
     padding: 0px;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.25);
   }
   
-  .progress-bar1 {
-    padding: 10 10 10 10;
+  .frontend-progress-bar1 {
+    padding: 10 10px 10px 0px;
     text-align: right;
     height: 25px;
     background-image: linear-gradient(120deg, #5f9cff 0%, #003a91 100%);
@@ -537,27 +537,27 @@ hr.solid {
     transition-property: width, background-color;
   }
   
-  .progress-moved .progress-bar1 {
+  .progress-moved .frontend-progress-bar1 {
     width: 100%;
     background-color: #003a91;
     animation: progressAnimation 5s;
   }
   
   @keyframes progressAnimation {
-    0%   { width: 25%; background-color: #5f9cff;}
+    0%   { width: 35%; background-color: #5f9cff;}
     100% { width: 100%; background-color: #003a91; }
   }
   
-/*BAR 2*/
+/*Frontend BAR 2*/
 
-.progress2 {
+.frontend-progress2 {
     padding: 0px;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.25);
   }
   
-  .progress-bar2 {
-    padding: 10 10 10 10;
+  .frontend-progress-bar2 {
+    padding: 10 10px 10px 0px;
     text-align: right;
     height: 25px;
     background-image: linear-gradient(120deg, #5f9cff 0%, #003a91 100%);
@@ -567,28 +567,28 @@ hr.solid {
     transition-property: width, background-color;
   }
   
-  .progress-moved .progress-bar2 {
+  .progress-moved .frontend-progress-bar2 {
     width: 90%;
     background-color: #003a91;
     animation: progressAnimation2 5s;
   }
   
   @keyframes progressAnimation2 {
-    0%   { width: 20%; background-color: #5f9cff;}
+    0%   { width: 30%; background-color: #5f9cff;}
     90% { width: 90%; background-color: #003a91; }
   }
 
 
-  /*BAR 3*/
+  /*Frontend BAR 3*/
 
-  .progress3 {
+  .frontend-progress3 {
     padding: 0px;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.25);
   }
   
-  .progress-bar3 {
-    padding: 10 10 10 10;
+  .frontend-progress-bar3 {
+    padding: 10 10px 10px 0px;
     text-align: right;
     height: 25px;
     background-image: linear-gradient(120deg, #5f9cff 0%, #003a91 100%);
@@ -598,7 +598,7 @@ hr.solid {
     transition-property: width, background-color;
   }
   
-  .progress-moved .progress-bar3 {
+  .progress-moved .frontend-progress-bar3 {
     width: 70%;
     background-color: #003a91;
     animation: progressAnimation3 6s;
@@ -610,6 +610,96 @@ hr.solid {
   }
   
 
+/*Backend BAR 1*/
+.backend-progress1 {
+    padding: 0px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.25);
+  }
+  
+  .backend-progress-bar1 {
+    padding: 10 10px 10px 0px;
+    text-align: right;
+    height: 25px;
+    background-image: linear-gradient(120deg, #ff7474 0%, #b80000 100%);
+    border-radius: 1em;
+    text-shadow: 2px 2px 2px #000000;
+    transition: 1s linear;
+    transition-property: width, background-color;
+  }
+  
+  .progress-moved .backend-progress-bar1 {
+    width: 80%;
+    background-color: #b80000;
+    animation: BE-progressAnimation 5s;
+  }
+  
+  @keyframes BE-progressAnimation {
+    0%   { width: 20%; background-color: #ff7474;}
+    80% { width: 80%; background-color: #b80000; }
+  }
+  
+/*Backend BAR 2*/
+
+.backend-progress2 {
+    padding: 0px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.25);
+  }
+  
+  .backend-progress-bar2 {
+    padding: 10 10px 10px 0px;
+    text-align: right;
+    height: 25px;
+    background-image: linear-gradient(120deg, #ff7474 0%, #b80000 100%);
+    border-radius: 1em;
+    text-shadow: 2px 2px 2px #000000;
+    transition: 1s linear;
+    transition-property: width, background-color;
+  }
+  
+  .progress-moved .backend-progress-bar2 {
+    width: 70%;
+    background-color: #b80000;
+    animation: BE-progressAnimation2 5s;
+  }
+  
+  @keyframes BE-progressAnimation2 {
+    0%   { width: 15%; background-color: #ff7474;}
+    70% { width: 70%; background-color: #b80000; }
+  }
+
+
+  /*Backend BAR 3*/
+
+  .backend-progress3 {
+    padding: 0px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.25);
+  }
+  
+  .backend-progress-bar3 {
+    padding: 10 10px 10px 0px;
+    text-align: right;
+    height: 25px;
+    background-image: linear-gradient(120deg, #ff7474 0%, #b80000 100%);
+    border-radius: 1em;
+    text-shadow: 2px 2px 2px #000000;
+    transition: 1s linear;
+    transition-property: width, background-color;
+  }
+  
+  .progress-moved .backend-progress-bar3 {
+    width: 50%;
+    background-color: #b80000;
+    animation: BE-progressAnimation3 6s;
+  }
+  
+  @keyframes BE-progressAnimation3 {
+    0%   { width: 10%; background-color: #ff7474;}
+    50% { width: 50%; background-color: #b80000; }
+  }
+  
 
 
 /* Blue */

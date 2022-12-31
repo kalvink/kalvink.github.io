@@ -292,8 +292,34 @@
         
         @media only screen and (max-width: 1000px) {
             #skills-inner {
-                max-width: 100%;
+                max-width: 90%;
             }
+            @keyframes progressAnimation {
+                0%   { width: 50%; background-color: #5f9cff;}
+                100% { width: 100%; background-color: #003a91; }
+              }
+            @keyframes progressAnimation2 {
+                0%   { width: 45%; background-color: #5f9cff;}
+                90% { width: 90%; background-color: #003a91; }
+              }
+            @keyframes progressAnimation3 {
+                0%   { width: 40%; background-color: #5f9cff;}
+                70% { width: 70%; background-color: #003a91; }
+              }
+
+            @keyframes BE-progressAnimation {
+                0%   { width: 30%; background-color: #ff7474;}
+                80% { width: 80%; background-color: #b80000; }
+              }
+            @keyframes BE-progressAnimation2 {
+                0%   { width: 25%; background-color: #ff7474;}
+                70% { width: 70%; background-color: #b80000; }
+              }
+            @keyframes BE-progressAnimation3 {
+                0%   { width: 20%; background-color: #ff7474;}
+                50% { width: 50%; background-color: #b80000; }
+              }
+
             .column-33 {
                 width: 100%;
                 padding: 0px;
