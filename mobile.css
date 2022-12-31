@@ -551,7 +551,7 @@
         
         @media only screen and (min-width: 320px) {
             #art-about {
-                height: 170%;
+                height: 100%;
             }
             #services {}
             .port-links {
