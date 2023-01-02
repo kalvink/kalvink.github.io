@@ -112,10 +112,9 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
-    /* -webkit-box-shadow: 0 10px 6px -6px rgb(19, 19, 19); */
+    /* -webkit-box-shadow: 0 10px 6px -6px rgb(19, 19, 19); 
     -moz-box-shadow: 0 10px 6px -6px rgb(24, 24, 24);
-    /* box-shadow: 0 10px 6px -6px rgb(19, 19, 19); */
-    /* 
+    box-shadow: 0 10px 6px -6px rgb(19, 19, 19);
     background-color: #c0c0c0;
     background-image: url(imgs/bg.png);
     background-size: 100% 100%;
