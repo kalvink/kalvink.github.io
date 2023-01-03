@@ -134,6 +134,17 @@ video {
     left: 0;
   }
 
+.service-vid{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: auto;
+    left: 0;
+  }
+
+
+
 #main button {
     display: inline-block;
     padding: 0.35em 1.2em;
@@ -442,13 +453,22 @@ hr.solid {
 #services-start{
     padding-top: 5px;
 }
+#services h2{
+    color: #ffffff;
+}
+
+#services2{
+    display: block;
+    position: relative;
+}
 #services {
     /* padding-top: 100px; */
     /* margin-top: 2%; */
-    padding-bottom: 10%;
+    padding-bottom: 29vh;
     display: block;
-    background: linear-gradient( 180deg, #5287DF 0%, #78B3F3 100%);
-    background-image: linear-gradient(rgb(82, 135, 223) 0%, rgb(120, 179, 243) 100%);
+    /* background: linear-gradient( 180deg, #ffffff 0%, #78B3F3 100%);
+    background-image: linear-gradient(147deg, #ffffff 0%, #ababab 74%);
+    */
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -555,7 +575,7 @@ hr.solid {
 /* Make sure that padding behaves as expected */
 
 * {
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
 }
 
 
@@ -815,6 +835,7 @@ hr.solid {
     /* margin-top: 2%; */
     padding-bottom: 5%;
     display: block;
+    background-image: linear-gradient(147deg, #c0c6d3 0%, #50566d 74%);
     background-color: rgb(20, 20, 20);
     -webkit-box-shadow: 0 10px 6px -6px rgb(19, 19, 19);
     -moz-box-shadow: 0 10px 6px -6px rgb(24, 24, 24);
