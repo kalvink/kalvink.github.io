@@ -461,12 +461,14 @@ hr.solid {
     display: block;
     position: relative;
 }
+
 #services {
     /* padding-top: 100px; */
     /* margin-top: 2%; */
     padding-bottom: 29vh;
     display: block;
-    /* background: linear-gradient( 180deg, #ffffff 0%, #78B3F3 100%);
+    /* 
+    background: linear-gradient( 180deg, #ffffff 0%, #78B3F3 100%);
     background-image: linear-gradient(147deg, #ffffff 0%, #ababab 74%);
     */
     background-position-x: initial;
