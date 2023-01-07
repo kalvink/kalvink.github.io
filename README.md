@@ -4,6 +4,8 @@ My website portfolio made in HTML, CSS & JS.
 Attribution required for usage.
 <br>
 
+![image](https://i.imgur.com/sy8ppjz.png)
+
 
 Icons:
 - Font Awesome
