@@ -529,7 +529,7 @@
     }
 
     #services {
-        padding-bottom: 35vh;
+        /* padding-bottom: 35vh; */
     }
 
     #serv-col-right {
@@ -537,12 +537,12 @@
     }
 
     #serv-col-center {
-        margin-bottom: 40px;
+        margin-bottom: 12px;
         width: 100%;
     }
 
     #serv-col-left {
-        margin-bottom: 40px;
+        margin-bottom: 12px;
         width: 100%;
     }
 }
@@ -608,6 +608,7 @@
 
     #skills {
         font-size: 20px;
+        padding-bottom: 20%;
     }
 }
 
@@ -615,7 +616,7 @@
 
     /*Big smartphones [426px -> 600px]*/
     h1 {
-        font-size: 100px;
+        font-size: 85px;
     }
 
     #art-about {
@@ -633,7 +634,82 @@
 }
 
 @media only screen and (max-width:500px) {
+    #intro {
+
+        font-size: 40px;
+
+    }
+
+    #slogan {
+        font-size: 40px;
+    }
+
+    #focus {
+        font-size: 17px;
+    }
+
+
+    #services2 {
+        /* padding-top: 10vh; */
+    }
+
+    #services2>h2 {
+        margin-bottom: 10%;
+        margin-top: 14vh;
+    }
+
+    #services2>h3 {
+
+
+        padding-bottom: 8%;
+    }
+
+    #services>video {
+        height: 148vh;
+    }
+
+    #resume-start {
+
+        margin-top: 50vh;
+
+    }
+
+    #skills h2 {
+        margin-top: 24%;
+        margin-bottom: 10%;
+    }
+
+    #skills-start {
+
+        /* padding-top: 10vh; */
+
+    }
+
+    #services-start {
+        /* margin-top: 22vh; */
+    }
+
+    #resume>h3 {
+
+        padding-bottom: 6%;
+    }
+
+    #resume {
+        margin-top: 50vh;
+        padding-top: 18vh;
+        height: 60vh;
+    }
+
+    #resume h2 {
+        margin-bottom: 10%;
+    }
+
     #art-about {
+
+        margin-top: 16vh;
+
+        padding-top: 11vh;
+
         height: 100%;
     }
 
@@ -649,6 +725,18 @@
     h3 {
         font-size: 30px;
     }
+
+    #portfolio-start {
+        /* padding-top: 10vh; */
+    }
+
+    #portfolio h2 {
+        margin-top: 24%;
+    }
+
+    .port-links {
+    width: 72vw;
+}
 }
 
 @media only screen and (max-width:450px) {
