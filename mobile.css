@@ -1,3 +1,12 @@
+@media only screen and (min-width: 1801px) {
+    #main>video {
+
+        height: 113%;
+    }
+
+    #art-about {height: 120vh !important;}
+}
+
 @media only screen and (max-width: 1800px) {
     .column-33 {
         margin-left: 100px;
@@ -735,8 +744,8 @@
     }
 
     .port-links {
-    width: 72vw;
-}
+        width: 72vw;
+    }
 }
 
 @media only screen and (max-width:450px) {
