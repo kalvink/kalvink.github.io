@@ -101,7 +101,7 @@
     }
 
     #about {
-        margin-top: 14%;
+        margin-top: 5%;
     }
 
     #art-about {
@@ -263,12 +263,17 @@
     }
 }
 
+
 @media only screen and (max-width: 1200px) {
 
     /*Tablets [601px -> 1200px]*/
     #main2 {
         padding-top: 5vh;
         padding-bottom: 9vh;
+    }
+
+    #art-about {
+        height: 110vh;
     }
 
     video {
@@ -603,6 +608,21 @@
     #art-about {
         height: 100%;
     }
+
+    #services h2 {
+        margin-top: 12%;
+    }
+
+    .service-vid {
+        height: 135%;
+    }
+
+    #resume-start {
+        margin-top: 40%;
+    }
+    #resume h2{
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (max-width:750px) {
@@ -730,8 +750,8 @@
     }
 
     #resume {
-        margin-top: 50vh;
-        padding-top: 18vh;
+        margin-top: -6vh;
+        padding-top: 8vh;
         height: 60vh;
     }
 
@@ -741,11 +761,12 @@
 
     #art-about {
 
-        margin-top: 16vh;
+        margin-top: 8vh;
 
         padding-top: 11vh;
 
         height: 100%;
+
     }
 
     #a1 {
