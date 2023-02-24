@@ -4,7 +4,9 @@
         height: 113%;
     }
 
-    #art-about {height: 120vh !important;}
+    #art-about {
+        height: 120vh !important;
+    }
 }
 
 @media only screen and (max-width: 1800px) {
@@ -82,8 +84,32 @@
 
 @media only screen and (max-width: 1500px) {
     #main2 {
-        padding-top: 20vh;
+        padding-top: 26vh;
         padding-bottom: 0vh;
+    }
+
+    #slogan {
+        font-size: 2em;
+    }
+
+    #focus {
+        font-size: 1em;
+    }
+
+    #main2>h1 {
+        font-size: 5em;
+    }
+
+    #about {
+        margin-top: 14%;
+    }
+
+    #art-about {
+        height: 110vh;
+    }
+
+    #resume-start {
+        margin-top: 11.5%;
     }
 
     video {
