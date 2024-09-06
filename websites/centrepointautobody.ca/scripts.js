@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('scroll', function() {
         const header = document.getElementById('topHeader');
-        if (window.scrollY > 0) {
+        if (window.scrollY > 500) {
             header.classList.add('solid');
         } else {
             header.classList.remove('solid');

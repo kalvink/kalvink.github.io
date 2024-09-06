@@ -8,6 +8,12 @@ body {
     background-color: #f4f4f4;
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Header Styles */
 header {
     background-color: transparent;
@@ -17,49 +23,30 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    display: flex; /* Added */
-    justify-content: space-between; /* Added */
-    align-items: center; /* Added */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     transition: background-color 0.3s, padding 0.3s, box-shadow 0.3s;
 }
 
-#topHeader.solid {
-    background-color: #ed1c24;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    transition: color 0.3s;
+header img.logo {
+    max-width: 150px;
 }
 
 header nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    align-items: center; /* Added */
-}
-
-header nav ul li {
-    margin: 0 1.5rem;
+    gap: 1.5rem;
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
     color: #f1faee;
 }
 
@@ -67,100 +54,72 @@ header button {
     background-color: #f1faee;
     color: #e63946;
     border: none;
-    padding: 0.6rem 1.7rem;
-    cursor: pointer;
+    padding: 0.75rem 1.5rem;
     border-radius: 4px;
-    font-weight: 600;
+    cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 header button:hover {
-    background-color: #f1faee;
-    color: #ed1c24;
+    background-color: #ed1c24;
+    color: white;
     transform: scale(1.05);
 }
 
-/* Additional improvements */
-#topHeader.solid h1 {
-    color: #ffffff;
-    transition: color 0.3s;
-}
-
-#topHeader.solid nav ul li a {
-    color: #ffffff;
-}
-
-/* Footer styles */
-footer {
+#topHeader.solid{
     background-color: #ed1c24;
-    color: white;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url("img/1.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
-/* Form styles */
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 1.5rem;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.hero-content {
+    color: white;
 }
 
-.form-group {
+.hero-content h1 {
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 0.9rem;
-}
-
-button[type="submit"] {
+.hero-content button {
     background-color: #ed1c24;
     color: white;
-    border: none;
     padding: 0.75rem 1.5rem;
-    cursor: pointer;
+    font-size: 1.2rem;
     border-radius: 4px;
-    font-size: 1rem;
-    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-button[type="submit"]:hover {
+.hero-content button:hover {
+    background-color: #e63946;
+    transform: scale(1.05);
+}
+
+/* Section Styles */
+.section {
+    padding: 4rem 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
     background-color: #ed1c24;
-}
-
-/* Home section styles */
-#home {
-    background-image: url("img/1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0;
-    max-width: none;
-    background-color: #373B44;
-    height: 100vh;
-    margin-top: -100px;
-}
-
-/* Location section styles */
-#location {
-    margin-bottom: 120px;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
 }
