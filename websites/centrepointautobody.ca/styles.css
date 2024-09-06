@@ -1,42 +1,166 @@
+/* Base styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
+/* Header Styles */
 header {
-    background-color: #333;
+    background-color: transparent;
     color: white;
-    padding: 1rem;
-    text-align: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex; /* Added */
+    justify-content: space-between; /* Added */
+    align-items: center; /* Added */
+    transition: background-color 0.3s, padding 0.3s, box-shadow 0.3s;
+}
+
+#topHeader.solid {
+    background-color: #ed1c24;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: color 0.3s;
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Added */
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-main {
-    padding: 2rem;
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f1faee;
 }
 
+header button {
+    background-color: #f1faee;
+    color: #e63946;
+    border: none;
+    padding: 0.6rem 1.7rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header button:hover {
+    background-color: #f1faee;
+    color: #ed1c24;
+    transform: scale(1.05);
+}
+
+/* Additional improvements */
+#topHeader.solid h1 {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+#topHeader.solid nav ul li a {
+    color: #ffffff;
+}
+
+/* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #ed1c24;
     color: white;
     text-align: center;
     padding: 1rem;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Form styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+button[type="submit"] {
+    background-color: #ed1c24;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+button[type="submit"]:hover {
+    background-color: #ed1c24;
+}
+
+/* Home section styles */
+#home {
+    background-image: url("img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh;
+    margin-top: -100px;
+}
+
+/* Location section styles */
+#location {
+    margin-bottom: 120px;
 }
